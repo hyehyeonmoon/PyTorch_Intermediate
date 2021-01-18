@@ -47,7 +47,9 @@
 | plot| MNIST data를 이미지로 보여주는 함수|
 | test| model의 accuracy를 측정하고, plot을 이용해 이미지를 보여주는 함수|
 
+# Reference
 
+[김기현의 딥러닝을 활용한 자연어처리 입문 올인원 패키지 Online. | 패스트캠퍼스](https://www.fastcampus.co.kr/data_online_dpnlp)
 
 
 
