@@ -24,3 +24,8 @@
 달리 말하자면 Input space의 MNIST 샘플이 latent space에 embedding 된 것이다.
 
 ![캡처](https://user-images.githubusercontent.com/55529617/105206814-2045ec80-5b8a-11eb-834a-a14e2fd2805b.PNG)
+
+
+## Reference
+
+[김기현의 딥러닝을 활용한 자연어처리 입문 올인원 패키지 Online. | 패스트캠퍼스](https://www.fastcampus.co.kr/data_online_dpnlp)
