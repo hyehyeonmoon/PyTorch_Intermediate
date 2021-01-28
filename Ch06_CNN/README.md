@@ -9,7 +9,7 @@
 실무에서 사용하듯이 directory를 고려합니다.
 
 |File |Description |Folder|
-|:-- |:-- |
+|:-- |:-- |:-- |
 |predict |CNN으로 MNIST test data 평가 |. |
 |train |get_model이라는 cnn, fc 선택 함수가 추가된 Ch05의 train 파일 |. |
 |model.pth |훈련된 모델의 파라미터 |. |
