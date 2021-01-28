@@ -46,6 +46,8 @@ PyTorch의 Ignite이 어떻게 동작하는지를 요약한 그림으로,
 
 ![KakaoTalk_20210128_172516202](https://user-images.githubusercontent.com/55529617/106111460-60f7c400-618f-11eb-9e0f-43bc26c8110d.jpg)
 
+## Reference
 
+[김기현의 딥러닝을 활용한 자연어처리 입문 올인원 패키지 Online. | 패스트캠퍼스](https://www.fastcampus.co.kr/data_online_dpnlp)
 
 
