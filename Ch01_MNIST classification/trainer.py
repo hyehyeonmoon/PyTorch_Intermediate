@@ -15,10 +15,10 @@ class Trainer():
 
         super().__init__()
 
-    def _train(self, x, y, config):
+    def _train(self, x, y, config): #self._train(train_data[0], train_data[1], config) 
         self.model.train() # 잊지 않고 꼭 해주기
 
-        # Shuffle before begin.
+        # Shuffle before begin and make mini batches
         # 나중에 dataloader, dataset을 이용해서 remove 될 수 있는 부분들
         indices = torch.randperm(x.size(0), device=x.device)
         x = torch.index_select(x, dim=0, index=indices).split(config.batch_size, dim=0)
