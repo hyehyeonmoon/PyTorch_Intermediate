@@ -28,7 +28,8 @@ def define_argparser():
 def main(config):
     # Set device based on user defined configuration.
     device = torch.device('cpu') if config.gpu_id < 0 else torch.device('cuda:%d' % config.gpu_id)
-
+       
+    # get_loaders를 이용해서 33~51줄까지 모두 만들어줄 수 있음
     x, y = load_mnist(is_train=True)
     # Reshape tensor to chunk of 1-d vectors.
     x = x.view(x.size(0), -1)
