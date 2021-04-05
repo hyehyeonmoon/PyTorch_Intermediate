@@ -16,7 +16,7 @@ class Trainer():
         super().__init__()
 
     def _train(self, x, y, config):
-        self.model.train()
+        self.model.train() # 잊지 않고 꼭 해주기
 
         # Shuffle before begin.
         indices = torch.randperm(x.size(0), device=x.device)
@@ -25,7 +25,7 @@ class Trainer():
 
         total_loss = 0
 
-        for i, (x_i, y_i) in enumerate(zip(x, y)):
+        for i, (x_i, y_i) in enumerate(zip(x, y)): #x_i : (batch_size,....)
             y_hat_i = self.model(x_i)
             loss_i = self.crit(y_hat_i, y_i.squeeze())
 
