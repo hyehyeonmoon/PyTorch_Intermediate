@@ -2,7 +2,7 @@
 
 김기현 님이 강의하신 "[김기현의 딥러닝을 활용한 자연어처리 입문 올인원 패키지 Online. | 패스트캠퍼스](https://www.fastcampus.co.kr/data_online_dpnlp)"를 공부하며 정리한 코드입니다.  
 개념에 대한 더 자세한 정리는 [Notion : 개념정리](https://www.notion.so/Summary-115c7bf1d79c4d9bbff7e4a7c36ac652)를 확인해 주시기 바랍니다.  
-(window10에서 실습을 진행하시는 분들은 강의 그대로 진행하기 어렵기 때문에 실습환경을 만들어 주어야 합니다. [env.md](https://github.com/hyehyeonmoon/PyTorch_NLP/blob/main/env.md)를 참고해주시기 바랍니다.) 
+(window10에서 실습을 진행하시는 분들은 강의 그대로 진행하기 어렵기 때문에 실습환경을 만들어 주어야 합니다. [env.md](https://github.com/hyehyeonmoon/PyTorch_Intermediate/blob/main/env.md)를 참고해주시기 바랍니다.) 
 
 
 ## [Index]
